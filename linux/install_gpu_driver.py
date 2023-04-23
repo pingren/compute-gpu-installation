@@ -349,7 +349,7 @@ def install_driver_runfile(system: System, version: str):
         binary = "NVIDIA-Linux-x86_64-470.103.01.run"
     else:
         run(f"curl -fSsl -O {DRIVER_URL}")
-        binary = "NVIDIA-Linux-x86_64-525.85.12.run"
+        binary = "NVIDIA-Linux-x86_64-525.105.17.run"
 
 
     attempt = 0
